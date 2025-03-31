@@ -192,6 +192,7 @@ h2 {
   flex-direction: row;
   flex-flow: wrap;
   padding: 20px;
+  
 }
 
 .recommendation {
@@ -200,23 +201,21 @@ h2 {
   width: 21.875rem;
   padding: 1rem;
   background-color: #fff;
-  border-radius: 11px;
+  border-radius: 15px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
   border:1px solid gray;
   font-size: 18px;
-  height:150px
+  height:250px 
 }
 
 .recommendation span {
   color: #1E3A8A;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
+  
 }
-
-/* Scroll to Top Button */
-
 .iconbutton{
   width: 48px;
   height: 48px;
@@ -229,6 +228,34 @@ h2 {
   right: 3%;
   bottom: 3%;
   cursor: pointer;
+}
+
+#new_recommendation {
+  margin: 0px; /* Ajusta el margen según necesites */
+  padding: 10px; /* Espaciado interno */
+  width: 800px; /* Ancho del cuadro de texto */
+  height: 200px; /* Altura del cuadro de texto */
+  border: 2px solid rgb(192, 192, 192); /* Borde con color */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de letra */
+  background-color: white; /* Color de fondo */
+  resize: none; /* Evita que se pueda cambiar el tamaño */
+}
+#name_input {
+  margin: 20px; /* Espacio alrededor */
+  margin-left: 0; 
+  padding: 10px; /* Espacio interno */
+  width: 800px; /* Ancho */
+  border: 1px solid rgb(192, 192, 192); /* Borde de color azul */
+  border-radius: 10px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de letra */
+  background-color:white; /* Fondo claro */
+}
+#char_limit {
+  margin-top: 0px; /* Espacio pequeño entre el cuadro de texto y el mensaje */
+  color: gray;
+  font-size: 14px;
+  text-align: left;
 }
 
 /* Form Pop-up */
@@ -292,8 +319,9 @@ fieldset {
   margin-right: 50px;   
   border: thin solid white;
   width: 50%;
-}
 
+}
+  
 /* Buttons */
 
 button {

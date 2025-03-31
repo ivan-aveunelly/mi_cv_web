@@ -46,7 +46,7 @@
 			Since my first steps in programming, I've been focused on improving my skills and adapting to an ever-changing technological world.
 			I'm currently studying Systems Engineering at the Technological University of Peru, where I complement my academic training with 
 			certifications and personal projects that allow me to apply my knowledge in a practical way.
-			Throughout my career, I've gained experience in web development, databases, and software architecture. 
+			Throughout my career, I've gained experience in we	b development, databases, and software architecture. 
 			My certifications in Platzi, Coursera, and Edx reflect my commitment to continuous learning and excellence in my work. 
 			I'm passionate about solving problems through code, optimizing processes, and building applications that generate real impact.
           </p>
@@ -93,18 +93,25 @@
           </div>
           <hr>
           <div class="project-card">
-            <h3>Sentiment Analyzer</h3>
+            <h3>Interfaces</h3>
             <ul>
-              <li>Developed and deployed a sentiment analyzer for the box reviews section of an eCommerce platform using IBM NLU</li>
+              <li>Developed modern and responsive web interfaces using React and Tailwind CSS for BrightCode Solutions, enhancing user experience and accessibility</li>
             </ul>
           </div>
           <hr>
           <div class="project-card">
-            <h3>Fashion Website</h3>
+            <h3>Dashboards</h3>
             <ul>
-              <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a shopping cart, using stripe for payment gateway</li>
+              <li>Built interactive dashboards with React and Chart.js for Innovatech Labs, enabling real-time data visualization and improving decision-making processes.</li>
             </ul>
           </div>
+		  <hr>
+		        <div class="project-card">
+		          <h3>Authentication Systems</h3>
+		          <ul>
+		            <li>Implemented JWT authentication systems with Node.js and Express for TechNova, ensuring secure user access and data protection.</li>
+		          </ul>
+		        </div>
     </div>
     </section>
     <div style="clear:both;"></div>
@@ -116,25 +123,30 @@
       <div class="all_recommendations" id="all_recommendations">
         <div class="recommendation">
           <span>&#8220;</span>
-          Jane is a very quick learner and quickly grasps key concepts of Web development. 
-          She got a great attitude & she is an excellent team player. 
-          She has a curious mind and asks the right question. 
-          She takes initiative within a team and has potentials to lead the team.
+         Iván is a dedicated and skilled problem solver who quickly understands complex software engineering concepts. 
+	      He demonstrates a positive attitude and excels in collaborative environments.
+       	 His curiosity drives him to ask insightful questions, enhancing team discussions.
+	     Iván takes initiative and shows strong leadership potential.
           <span>&#8221;</span>
+		  <p style="text-align: right;">- Anonymous</p>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          Working with Jane has been an awesome experience. 
-          She is highly knowledgable and always goes the extra step to make sure everything is right. 
-          For any future projects that need her expertise I would definitely want to work with her again.
+         Iván is a fast learner with a deep understanding of system engineering principles. 
+		 He consistently approaches challenges with creativity and determination. 
+		 His collaborative mindset and ability to communicate effectively make him an invaluable team player. 
+		 Iván has the vision and drive to lead projects successfully.
           <span>&#8221;</span>
+		  <p style="text-align: right;">- Anonymous</p>
         </div>
         <div class="recommendation">
           <span>&#8220;</span>
-          I had worked along with Jane during the initial phase of our venture which needed Web development. 
-          She is a committed resource who has in depth knowledge about the domain. 
-          She will be an asset for any organisation! 
+          Iván displays a remarkable ability to grasp intricate technical concepts with ease.
+		   His proactive approach and positive demeanor enhance team productivity.
+		   Iván’s curiosity and critical thinking skills help him identify and address key challenges effectively.
+		   He demonstrates natural leadership qualities and contributes significantly to team success.
           <span>&#8221;</span>
+		  <p style="text-align: right;">- Anonymous</p>
         </div>
       </div>
     </section>
@@ -144,8 +156,9 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
+          <input type="text" id="name_input"placeholder="Name (Optional)"> <br/>
           <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+		  <p id="char_limit">Maximum of 350 characters.</p>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
           </div>
