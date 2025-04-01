@@ -126,8 +126,13 @@ h2 {
   width: 2in;
   font-size: 20px;
   box-shadow: 0 3px 10px gray;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
-
+.skill:hover {
+  transform: scale(1.1); 
+  z-index: 1; 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
 .skill img {
   height: 35px;
   align-items: center;
